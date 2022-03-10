@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #282d35;
+  margin: 0;
+  font-family: Inter, sans-serif;
+  height: 100vh;
+}
+
+nav {
+  background: #21222b;
+  display: flex;
+  margin: 0px;
+  padding: 30px 25px;
+  align-items: center;
+}
+
+.nav--logo_text,
+.nav--title {
+  margin: 0;
+}
+
+.nav--icon {
+  height: 30px;
+  margin-right: 7px;
+}
+
+.nav--logo_text {
+  color: #61dafb;
+  margin-right: auto;
+  font-weight: 700;
+}
+
+.nav--title {
+  color: white;
+  font-weight: 600;
+}
+
+main {
+  color: white;
+  padding: 57px 37px;
+  background-image: url("./images/bglogo.jpg");
+  background-repeat: no-repeat;
+  background-position: right 100%;
+}
+
+.main--title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main-facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main-facts > li {
+  padding-block: 10px;
+  line-height: 19px;
+}
+
+.main-facts > li::marker {
+  font-size: 1.6em;
+  color: #61dafb;
+}
